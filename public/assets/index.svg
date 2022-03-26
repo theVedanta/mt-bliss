@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1263" height="1428" viewBox="0 0 1263 1428">
+  <defs>
+    <filter id="Rectangle_1" x="-2" y="-75" width="1268" height="1461" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-color="#3e3d3d" flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_1">
+      <rect width="1263" height="1428"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="1263" height="1428" fill="rgba(255,255,255,0)"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(73)">
+      <g transform="matrix(1, 0, 0, 1, -73, 0)" filter="url(#Rectangle_1)">
+        <path id="Rectangle_1-2" data-name="Rectangle 1" d="M0,0H1118a0,0,0,0,1,0,0V1261a50,50,0,0,1-50,50H50a50,50,0,0,1-50-50V0A0,0,0,0,1,0,0Z" transform="translate(73)" fill="#fff"/>
+      </g>
+      <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(573 44)" fill="#d8dcdd" stroke="#d8dcdd" stroke-width="1">
+        <rect width="490" height="332" stroke="none"/>
+        <rect x="0.5" y="0.5" width="489" height="331" fill="none"/>
+      </g>
+      <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(573 416)" fill="#d8dcdd" stroke="#d8dcdd" stroke-width="1">
+        <rect width="490" height="291" stroke="none"/>
+        <rect x="0.5" y="0.5" width="489" height="290" fill="none"/>
+      </g>
+      <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(53 747)" fill="#d8dcdd" stroke="#d8dcdd" stroke-width="1">
+        <rect width="474" height="176" stroke="none"/>
+        <rect x="0.5" y="0.5" width="473" height="175" fill="none"/>
+      </g>
+      <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(53 963)" fill="#d8dcdd" stroke="#d8dcdd" stroke-width="1">
+        <path d="M0,0H474a0,0,0,0,1,0,0V302a0,0,0,0,1,0,0H50A50,50,0,0,1,0,252V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1,.5H473a.5.5,0,0,1,.5.5V301a.5.5,0,0,1-.5.5H50A49.5,49.5,0,0,1,.5,252V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(53 44)" fill="#d8dcdd" stroke="#d8dcdd" stroke-width="1">
+        <rect width="474" height="663" stroke="none"/>
+        <rect x="0.5" y="0.5" width="473" height="662" fill="none"/>
+      </g>
+      <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(573 747)" fill="#d8dcdd" stroke="#d8dcdd" stroke-width="1">
+        <path d="M0,0H490a0,0,0,0,1,0,0V468a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1,.5H489a.5.5,0,0,1,.5.5V468A49.5,49.5,0,0,1,440,517.5H1a.5.5,0,0,1-.5-.5V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
