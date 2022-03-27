@@ -48,7 +48,7 @@ const SlideShow = () => {
                             src={slideImage.url}
                             alt={slideImage.caption}
                             style={{
-                                height: "70vh",
+                                height: "85vh",
                             }}
                             className="w-screen"
                         />

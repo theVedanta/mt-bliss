@@ -3,7 +3,7 @@
     color: #1e1e1f;
 }
 body {
-    background-color: #fef9ef;
+    background-color: #edeff2;
 }
 img {
     object-fit: cover;
@@ -29,3 +29,41 @@ img {
         rgba(255, 255, 255, 0) 100%
     );
 } */
+.owl-stage-outer {
+    overflow: hidden;
+    margin-top: 7vh;
+}
+.owl-stage {
+    display: flex;
+}
+.owl-nav {
+    display: none;
+}
+.owl-item {
+    width: 100%;
+    height: auto;
+    margin: 0 2vw;
+}
+.owl-dots {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.owl-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 0.7vw;
+    margin: 1vh 0.3vw;
+    cursor: pointer;
+}
+.owl-dot span {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+.owl-dot.active span {
+    background-color: #296fd9;
+}

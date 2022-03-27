@@ -2,11 +2,16 @@ const Features = () => {
     return (
         <section className="features px-32 my-20">
             <div className="feat-cards w-full flex flex-wrap justify-between items-center">
-                {[1, 2, 3, 4, 5, 6].map(() => {
+                {[1, 2, 3, 4, 5, 6].map((i) => {
                     return (
                         <div
-                            className="feat-card bg-gray rounded-lg p-12 transition-all hover:shadow-xl"
-                            style={{ width: "32%", marginBottom: "2%" }}
+                            className="feat-card bg-gray rounded-2xl p-10 transition-all hover:shadow-xl"
+                            style={{
+                                width: "32%",
+                                marginBottom: "2%",
+                                boxShadow: "0 0 30px rgba(0, 0, 0, 0.15)",
+                            }}
+                            key={i}
                         >
                             <img
                                 src="/assets/feats/jacuzzi.png"
