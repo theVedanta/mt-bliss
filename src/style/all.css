@@ -1,5 +1,18 @@
 * {
     outline: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+select,
+strong,
+i,
+b {
     color: #1e1e1f;
 }
 body {
@@ -66,4 +79,51 @@ img {
 }
 .owl-dot.active span {
     background-color: #296fd9;
+}
+.header-content {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../../public/assets/header.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cont-box {
+    width: 30%;
+}
+
+.feat-card {
+    width: 32%;
+    margin-bottom: 2%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* LAP */
+@media (max-width: 1279px) {
+    .cont-box {
+        width: 32%;
+        margin: 0 0.5%;
+    }
+    .feat-card {
+        width: 48%;
+        margin-bottom: 3.6%;
+    }
+}
+/* TAB */
+@media (max-width: 1023px) {
+    .cont-box {
+        width: 48%;
+        margin: 0 1%;
+        margin-bottom: 2vh;
+    }
+}
+/* PHONG */
+@media (max-width: 767px) {
+    .cont-box {
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+    .feat-card {
+        width: 100%;
+        margin-bottom: 3vh;
+    }
 }

@@ -1,12 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1312" height="283" viewBox="0 0 1312 283">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1490" height="345" viewBox="0 0 1490 345">
   <defs>
+    <filter id="Mt." x="7" y="-96" width="614" height="567" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Bliss" x="575" y="-96" width="910" height="537" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
     <clipPath id="clip-Web_1920_1">
-      <rect width="1312" height="283"/>
+      <rect width="1490" height="345"/>
     </clipPath>
   </defs>
   <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
-    <rect width="1312" height="283" fill="rgba(255,255,255,0)"/>
-    <text id="Mt." transform="translate(2 276)" fill="#edaa3d" font-size="349" font-family="Budge-Regular, Budge"><tspan x="0" y="0">Mt.</tspan></text>
-    <text id="Bliss" transform="translate(534 274)" fill="#edaa3d" font-size="369" font-family="Roundest-Serial-ExtraBold-Regular, Roundest-Serial-ExtraBold"><tspan x="0" y="0">Bliss</tspan></text>
+    <rect width="1490" height="345" fill="rgba(255,255,255,0)"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(56 41)">
+      <g transform="matrix(1, 0, 0, 1, -56, -41)" filter="url(#Mt.)">
+        <text id="Mt.-2" data-name="Mt." transform="translate(39 316)" fill="#edaa3d" font-size="380" font-family="Budge-Regular, Budge"><tspan x="0" y="0">Mt.</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -56, -41)" filter="url(#Bliss)">
+        <text id="Bliss-2" data-name="Bliss" transform="translate(605 316)" fill="#edaa3d" font-size="400" font-family="Roundest-Serial-ExtraBold-Regular, Roundest-Serial-ExtraBold"><tspan x="0" y="0">Bliss</tspan></text>
+      </g>
+    </g>
   </g>
 </svg>

@@ -5,16 +5,68 @@ import { useRef } from "react";
 
 const slideImages = [
     {
-        url: "/assets/sample/1.jpg",
+        url: "/assets/bung/1.webp",
         caption: "Slide 1",
     },
     {
-        url: "/assets/sample/2.jpg",
-        caption: "Slide 2",
+        url: "/assets/bung/2.webp",
+        caption: "Slide 1",
     },
     {
-        url: "/assets/sample/3.png",
-        caption: "Slide 3",
+        url: "/assets/bung/3.webp",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/4.webp",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/5.jpeg",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/6.webp",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/7.webp",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/8.webp",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/9.webp",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/10.jpeg",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/11.webp",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/12.webp",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/13.webp",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/14.webp",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/15.webp",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/16.jpeg",
+        caption: "Slide 1",
     },
 ];
 
@@ -22,15 +74,15 @@ const SlideShow = () => {
     const mainRef = useRef("slide");
 
     return (
-        <section className="slideshow relative">
+        <section className="slideshow relative" id="slideshow">
             <div
-                className="slide-prev absolute top-0 left-0 h-full px-10 text-5xl flex justify-center items-center text-black opacity-50 cursor-pointer transition-all hover:opacity-90"
+                className="slide-prev absolute top-0 left-0 h-full px-10 text-5xl flex justify-center items-center text-black opacity-50 cursor-pointer transition-all hover:opacity-90 ph:text-3xl ph:px-5"
                 onClick={() => mainRef.current.goBack()}
             >
                 <FaChevronLeft />
             </div>
             <div
-                className="slide-next absolute top-0 right-0 h-full px-10 text-5xl flex justify-center items-center text-black opacity-50 cursor-pointer transition-all hover:opacity-90"
+                className="slide-next absolute top-0 right-0 h-full px-10 text-5xl flex justify-center items-center text-black opacity-50 cursor-pointer transition-all hover:opacity-90 ph:text-3xl ph:px-5"
                 onClick={() => mainRef.current.goNext()}
             >
                 <FaChevronRight />
@@ -39,6 +91,7 @@ const SlideShow = () => {
                 infinite={true}
                 easing="ease-in"
                 transitionDuration="800"
+                duration={3000}
                 arrows={false}
                 ref={mainRef}
             >
@@ -48,7 +101,8 @@ const SlideShow = () => {
                             src={slideImage.url}
                             alt={slideImage.caption}
                             style={{
-                                height: "85vh",
+                                width: "100vw",
+                                maxHeight: "100vh",
                             }}
                             className="w-screen"
                         />

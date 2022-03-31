@@ -11,9 +11,9 @@ const Review = ({ review }) => {
                     {review ? review.name : ""}
                 </h1>
             </div>
-            <p className="text-xl h-full font-normal mt-10 text-justify lap:text-base tab:text-sm tab:pr-6 ph:pr-0 ph:mt-5">
-                {review ? review.desc : ""}
-            </p>
+            <i className="text-xl h-full font-normal mt-10 text-justify lap:text-base tab:text-sm tab:pr-6 ph:pr-0 ph:mt-5">
+                "{review ? review.desc : ""}"
+            </i>
         </div>
     );
 };
