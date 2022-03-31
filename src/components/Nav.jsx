@@ -11,7 +11,7 @@ const Nav = () => {
             <div className="left w-1/2 py-3 z-50">
                 <a href="#header">
                     <img
-                        src="/assets/logo-gold.svg"
+                        src="/assets/logo-gold.png"
                         className="w-32 lap:w-28 tab:w-24"
                         alt="logo"
                     />

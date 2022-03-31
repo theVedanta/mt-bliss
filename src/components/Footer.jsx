@@ -57,7 +57,7 @@ const Footer = () => {
         <footer className="footer flex justify-between mt-32 px-32 py-12 w-screen bg-black lap:mt-0 lap:px-10 lap:py-8 tab:flex-wrap ph:px-0">
             <div className="mt-details flex flex-col w-4/12 justify-between lap:w-1/2 lap:mx-10 lap:justify-center tab:items-center tab:w-full">
                 <img
-                    src="/assets/logo-gold.svg"
+                    src="/assets/logo-gold.png"
                     className="w-full tab:w-1/3 ph:w-2/3"
                     alt="logo"
                 />

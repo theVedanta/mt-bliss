@@ -6,7 +6,7 @@ const Header = ({ setShowCont }) => {
         <section className="header w-screen h-screen flex flex-col" id="header">
             <div className="header-content w-full h-3/4 flex flex-col justify-center items-center pt-20 z-10 lap:py-28 lap:pt-40 lap:h-full">
                 <img
-                    src="/assets/logo-gold.svg"
+                    src="/assets/logo-gold.png"
                     className="w-1/3 lap:w-5/12 ph:w-2/3"
                     alt="logo"
                 />
