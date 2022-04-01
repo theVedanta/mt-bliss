@@ -25,11 +25,11 @@ const Contact = ({ setShowCont }) => {
                     <h2>mtbliss15@gmail.com</h2>
                 </a>
                 <a
-                    href="tel:9910700774"
+                    href="tel:9930727279"
                     className="cont-unit flex justify-between w-full items-center py-1"
                 >
                     <FaPhoneAlt />
-                    <h2>99107 00774</h2>
+                    <h2>99307 27279</h2>
                 </a>
             </div>
         </div>

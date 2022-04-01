@@ -1,4 +1,37 @@
 const Features = () => {
+    const feats = [
+        {
+            img: "/assets/feats/sp.png",
+            name: "Swimming Pool to cool",
+            desc: `Beat the heat and enjoy the cool breeze of the pool. Mt. Bliss offers a beautiful Swimming pool with plenty of space around for teh adults to enjoy too.`,
+        },
+        {
+            img: "/assets/feats/mt.png",
+            name: "Scenic View",
+            desc: `The beautiful mountains around and a soothing scenery from the villa are really beatutiful. The view is breathtaking and the mountain is just a short walk away.`,
+        },
+        {
+            img: "/assets/feats/wifi.png",
+            name: "The Modern getaway",
+            desc: `The bungalow provides accomodation with free wifi, AC Rooms, a kitchen and a living room. The villa is also equipped with a terrace and a balcony and of course, the swimming pool.`,
+        },
+        {
+            img: "/assets/feats/food.png",
+            name: "Delicious delicacies",
+            desc: `With prior notice, You can have delicious food to be cooked at the bungalow itself at a very nominal cost. Our caretaker will make sure that their won't be any tummies rumbling.`,
+        },
+        {
+            img: "/assets/feats/tv.png",
+            name: "Entertainment",
+            desc: `Feeling lazy and just want to sit around in the huge villa? We have you covered with entertainment. The villa has a TV along with WIFI to watch your favorite movies/shows.`,
+        },
+        {
+            img: "/assets/feats/work.png",
+            name: "Important work?",
+            desc: `In case you would wish to work on your vacation, the bunalow has a Desk with a very comfortable chair for the same. The dedicated workspace is very calm and quiet.`,
+        },
+    ];
+
     return (
         <section
             className="features px-32 my-24 lap:px-16 lap:my-14 lap:mt-20 ph:px-6"
@@ -8,25 +41,22 @@ const Features = () => {
                 Features
             </h1>
             <div className="feat-cards w-full flex flex-wrap justify-between items-center">
-                {[1, 2, 3, 4, 5, 6].map((i) => {
+                {feats.map((feat) => {
                     return (
                         <div
-                            className="feat-card rounded-2xl px-14 py-10 transition-all bg-slate-200 hover:shadow-xl blap:px-10 blap:py-8"
-                            key={i}
+                            className="feat-card rounded-2xl px-14 py-10 transition-all h-80 bg-slate-200 blap:px-10 blap:py-8 tab:px-8 tab:h-72"
+                            key={feats.indexOf(feat)}
                         >
                             <img
-                                src="/assets/feats/jacuzzi.png"
+                                src={feat.img}
                                 alt="jacz"
                                 className="w-2/12 lap:w-2/12"
                             />
-                            <h1 className="text-3xl font-bold mt-7 lap:text-2xl">
-                                Jacuzzi
+                            <h1 className="text-2xl font-bold mt-7 lap:text-xl">
+                                {feat.name}
                             </h1>
                             <p className="mt-4 text-justify tab:text-sm">
-                                Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Consequatur dolorum est, nihil
-                                dolore soluta dolores modi aliquid minima?
-                                Reiciendis est in mollitia.
+                                {feat.desc}
                             </p>
                         </div>
                     );

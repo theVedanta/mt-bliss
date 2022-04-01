@@ -88,11 +88,13 @@ const Footer = () => {
                     className="footer-name text-lg bg-gray rounded-lg px-5 py-3 w-full mb-3 shadow-lg tab:text-sm"
                     placeholder="Email"
                     name="from"
+                    autoComplete="off"
                 />
                 <textarea
                     className="footer-msg text-lg bg-gray rounded-lg px-5 py-3 w-full h-full resize-none shadow-lg tab:text-sm tab:h-32"
                     placeholder="Write your message here"
                     name="msg"
+                    autoComplete="off"
                 ></textarea>
                 <button
                     text="Send Message"

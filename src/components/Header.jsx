@@ -32,7 +32,7 @@ const Header = ({ setShowCont }) => {
                     </a>
                 </div>
             </div>
-            <div className="contacts w-full flex justify-between items-center px-32 -translate-y-12 z-20 flex-wrap lap:px-16 lap:-translate-y-8 lap:justify-center ph:px-6">
+            <div className="contacts w-full flex justify-between items-center px-32 -translate-y-12 z-20 flex-wrap pb-12 lap:px-16 lap:-translate-y-8 lap:justify-center ph:px-6">
                 <div className="cont-box shadow-lg bg-slate-200 py-10 px-12 rounded lap:px-9 lap:py-6">
                     <h1 className="text-2xl font-semibold mb-10 lap:text-xl lap:mb-4">
                         Address
@@ -64,11 +64,11 @@ const Header = ({ setShowCont }) => {
                         <h2>mtbliss15@gmail.com</h2>
                     </a>
                     <a
-                        href="tel:9910700774"
+                        href="tel:9930727279"
                         className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm"
                     >
                         <FaPhoneAlt />
-                        <h2>99107 00774</h2>
+                        <h2>99307 27279</h2>
                     </a>
                 </div>
                 <div className="cont-box shadow-lg bg-slate-200 py-10 px-12 rounded lap:px-9 lap:py-6">

@@ -17,11 +17,18 @@ b {
 }
 body {
     background-color: #edeff2;
+    width: 100vw;
+    overflow-x: hidden;
+}
+#root {
+    width: 100vw;
+    overflow-x: hidden;
 }
 img {
     object-fit: cover;
     user-select: none;
 }
+
 .slide-prev,
 .slide-next {
     z-index: 1;
@@ -94,7 +101,7 @@ img {
 .feat-card {
     width: 32%;
     margin-bottom: 2%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 /* LAP */
