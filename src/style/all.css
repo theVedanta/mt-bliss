@@ -134,3 +134,9 @@ img {
         margin-bottom: 3vh;
     }
 }
+/* HEIGHT */
+@media (max-height: 750px) {
+    #pricing {
+        margin-top: 400px;
+    }
+} ;

@@ -3,22 +3,22 @@ const Features = () => {
         {
             img: "/assets/feats/sp.png",
             name: "Swimming Pool to cool",
-            desc: `Beat the heat and enjoy the cool breeze of the pool. Mt. Bliss offers a beautiful Swimming pool with plenty of space around for teh adults to enjoy too.`,
+            desc: `Beat the heat and enjoy the cool breeze of the pool. Mt. Bliss offers a beautiful Swimming pool with plenty of space around for the adults to enjoy too.`,
         },
         {
             img: "/assets/feats/mt.png",
             name: "Scenic View",
-            desc: `The beautiful mountains around and a soothing scenery from the villa are really beatutiful. The view is breathtaking and the mountain is just a short walk away.`,
+            desc: `The beautiful mountains around and a soothing scenery from the villa are really beautiful. The view is breathtaking and the mountain is just a short walk away.`,
         },
         {
             img: "/assets/feats/wifi.png",
             name: "The Modern getaway",
-            desc: `The bungalow provides accomodation with free wifi, AC Rooms, a kitchen and a living room. The villa is also equipped with a terrace and a balcony and of course, the swimming pool.`,
+            desc: `The bungalow provides accommodation with free wifi, AC Rooms, a kitchen and a living room. The villa is also equipped with a terrace and a balcony and of course, the swimming pool.`,
         },
         {
             img: "/assets/feats/food.png",
             name: "Delicious delicacies",
-            desc: `With prior notice, You can have delicious food to be cooked at the bungalow itself at a very nominal cost. Our caretaker will make sure that their won't be any tummies rumbling.`,
+            desc: `With prior notice, You can have delicious food to be cooked at the bungalow itself at a very nominal cost. Our caretaker will make sure that there won't be any tummies rumbling.`,
         },
         {
             img: "/assets/feats/tv.png",
@@ -28,7 +28,7 @@ const Features = () => {
         {
             img: "/assets/feats/work.png",
             name: "Important work?",
-            desc: `In case you would wish to work on your vacation, the bunalow has a Desk with a very comfortable chair for the same. The dedicated workspace is very calm and quiet.`,
+            desc: `In case you would wish to work on your vacation, the bungalow has a Desk with a very comfortable chair for the same. The dedicated workspace is very calm and quiet.`,
         },
     ];
 

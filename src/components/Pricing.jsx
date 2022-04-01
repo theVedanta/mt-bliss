@@ -22,7 +22,7 @@ const Pricing = ({ setShowCont }) => {
 
     return (
         <section
-            className="pricing my-24 px-32 flex flex-col justify-center items-center mb-32 lap:px-16 ph:px-6 ph:mt-72 ph:mb-0"
+            className="pricing my-24 px-32 flex flex-col justify-center items-center mb-32 lap:px-16 ph:px-6 ph:mt-64 ph:mb-0"
             id="pricing"
         >
             <h1 className="text-5xl font-semibold text-center mb-16">

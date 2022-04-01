@@ -57,18 +57,18 @@ const Header = ({ setShowCont }) => {
                         <h2>74284 58777</h2>
                     </a>
                     <a
-                        href="mailto:mtbliss15@gmail.com"
-                        className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm"
-                    >
-                        <FaEnvelope />
-                        <h2>mtbliss15@gmail.com</h2>
-                    </a>
-                    <a
                         href="tel:9930727279"
                         className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm"
                     >
                         <FaPhoneAlt />
                         <h2>99307 27279</h2>
+                    </a>
+                    <a
+                        href="mailto:mtbliss15@gmail.com"
+                        className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm"
+                    >
+                        <FaEnvelope />
+                        <h2 className="text-blue">mtbliss15@gmail.com</h2>
                     </a>
                 </div>
                 <div className="cont-box shadow-lg bg-slate-200 py-10 px-12 rounded lap:px-9 lap:py-6">
