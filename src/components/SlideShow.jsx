@@ -37,7 +37,7 @@ const slideImages = [
         caption: "Slide 1",
     },
     {
-        url: "/assets/bung/9.webp",
+        url: "/assets/bung/9.jpg",
         caption: "Slide 1",
     },
     {

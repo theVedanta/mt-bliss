@@ -1,48 +1,48 @@
 {
-  "name": "mt-bliss",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emailjs/browser": "^3.4.0",
-    "@testing-library/jest-dom": "^5.16.3",
-    "@testing-library/react": "^12.1.4",
-    "@testing-library/user-event": "^13.5.0",
-    "autoprefixer": "^10.4.4",
-    "notyf": "^3.10.0",
-    "parallax-js": "^3.1.0",
-    "postcss": "^8.4.12",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
-    "react-owl-carousel2": "^0.3.0",
-    "react-router-dom": "^6.2.2",
-    "react-scripts": "5.0.0",
-    "react-slideshow-image": "^3.7.0",
-    "tailwindcss": "^3.0.23",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "mt-bliss",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@emailjs/browser": "^3.4.0",
+        "@testing-library/jest-dom": "^5.16.3",
+        "@testing-library/react": "^12.1.4",
+        "@testing-library/user-event": "^13.5.0",
+        "autoprefixer": "^10.4.4",
+        "notyf": "^3.10.0",
+        "parallax-js": "^3.1.0",
+        "postcss": "^8.4.12",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-icons": "^4.3.1",
+        "react-owl-carousel2": "^0.3.0",
+        "react-router-dom": "^6.2.2",
+        "react-scripts": "5.0.0",
+        "react-slideshow-image": "^3.7.0",
+        "tailwindcss": "^3.0.23",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }
