@@ -16,9 +16,21 @@ const Index = () => {
         audio.play();
     }, []);
 
+    document.body.addEventListener("mousemove", () => {
+        const audio = document.getElementById("rain");
+        audio.volume = "0.4";
+        audio.play();
+    });
+
     return (
         <>
-            <audio src="/assets/rain.wav" id="rain" loop={true}></audio>
+            <audio
+                src="/assets/rain.wav"
+                id="rain"
+                title="rain"
+                loop={true}
+                autoPlay={true}
+            ></audio>
             <Header setShowCont={setShowCont} />
             <Pricing setShowCont={setShowCont} />
             <SlideShow />

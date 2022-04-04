@@ -4,6 +4,15 @@ import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 const Header = ({ setShowCont }) => {
     return (
         <section className="header w-screen h-screen flex flex-col" id="header">
+            <div className="dead-section hidden">
+                <h1>Mt. Bliss</h1>
+                <h1>Lonavala</h1>
+                <h1>Swimming Pool</h1>
+                <h1>Bungalow</h1>
+                <h1>Villa</h1>
+                <h2>Lonavla</h2>
+                <h2>Book Bunglow</h2>
+            </div>
             <div className="header-content w-full h-3/4 flex flex-col justify-center items-center pt-20 z-10 lap:py-28 lap:pt-40 lap:h-full">
                 <img
                     src="/assets/logo-gold.png"
@@ -34,47 +43,47 @@ const Header = ({ setShowCont }) => {
             </div>
             <div className="contacts w-full flex justify-between items-center px-32 -translate-y-12 z-20 flex-wrap pb-12 lap:px-16 lap:-translate-y-8 lap:justify-center ph:px-6">
                 <div className="cont-box shadow-lg bg-slate-200 py-10 px-12 rounded lap:px-9 lap:py-6">
-                    <h1 className="text-2xl font-semibold mb-10 lap:text-xl lap:mb-4">
+                    <h3 className="text-2xl font-semibold mb-10 lap:text-xl lap:mb-4">
                         Address
-                    </h1>
-                    <p className="py-1 lap:text-sm">
+                    </h3>
+                    <h3 className="py-1 lap:text-sm">
                         2, Daffodils, The Royal Heights
                         <div className="my-2"></div>
                         Old Khandala Road, Khandala
                         <div className="my-2"></div>
                         Maharashtra - 410401
-                    </p>
+                    </h3>
                 </div>
                 <div className="cont-box shadow-lg bg-slate-200 py-10 px-12 rounded lap:px-9 lap:py-6">
-                    <h1 className="text-2xl font-semibold mb-10 lap:text-xl lap:mb-4">
+                    <h3 className="text-2xl font-semibold mb-10 lap:text-xl lap:mb-4">
                         Contact Us
-                    </h1>
+                    </h3>
                     <a
                         href="tel:7428458777"
                         className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm"
                     >
                         <FaPhoneAlt />
-                        <h2>74284 58777</h2>
+                        <h4>74284 58777</h4>
                     </a>
                     <a
                         href="tel:9930727279"
                         className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm"
                     >
                         <FaPhoneAlt />
-                        <h2>99307 27279</h2>
+                        <h4>99307 27279</h4>
                     </a>
                     <a
                         href="mailto:mtbliss15@gmail.com"
                         className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm"
                     >
                         <FaEnvelope />
-                        <h2 className="text-blue">mtbliss15@gmail.com</h2>
+                        <h4 className="text-blue">mtbliss15@gmail.com</h4>
                     </a>
                 </div>
                 <div className="cont-box shadow-lg bg-slate-200 py-10 px-12 rounded lap:px-9 lap:py-6">
-                    <h1 className="text-2xl font-semibold mb-10 lap:text-xl lap:mb-4">
+                    <h3 className="text-2xl font-semibold mb-10 lap:text-xl lap:mb-4">
                         Nearby Points
-                    </h1>
+                    </h3>
                     {/* <p className="py-1">
                         Kune Falls - 1 KM
                         <div className="my-2"></div>
@@ -83,16 +92,16 @@ const Header = ({ setShowCont }) => {
                         Adlabs Imagica - 11 KM
                     </p> */}
                     <div className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm">
-                        <h2>Kune Falls</h2>
-                        <h2>1 Km.</h2>
+                        <h4>Kune Falls</h4>
+                        <h4>1 Km.</h4>
                     </div>
                     <div className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm">
-                        <h2>Lion's Point</h2>
-                        <h2>6 Km.</h2>
+                        <h4>Lion's Point</h4>
+                        <h4>6 Km.</h4>
                     </div>
                     <div className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm">
-                        <h2>Adlabs Imagica</h2>
-                        <h2>11 Km.</h2>
+                        <h4>Adlabs Imagica</h4>
+                        <h4>11 Km.</h4>
                     </div>
                 </div>
             </div>

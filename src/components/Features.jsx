@@ -37,9 +37,9 @@ const Features = () => {
             className="features px-32 my-24 lap:px-16 lap:my-14 lap:mt-20 ph:px-6"
             id="features"
         >
-            <h1 className="text-5xl font-semibold text-center mb-16">
+            <h3 className="text-5xl font-semibold text-center mb-16">
                 Features
-            </h1>
+            </h3>
             <div className="feat-cards w-full flex flex-wrap justify-between items-center">
                 {feats.map((feat) => {
                     return (
@@ -52,9 +52,9 @@ const Features = () => {
                                 alt="jacz"
                                 className="w-2/12 lap:w-2/12"
                             />
-                            <h1 className="text-2xl font-bold mt-7 lap:text-xl">
+                            <h3 className="text-2xl font-bold mt-7 lap:text-xl">
                                 {feat.name}
-                            </h1>
+                            </h3>
                             <p className="mt-4 text-justify tab:text-sm">
                                 {feat.desc}
                             </p>

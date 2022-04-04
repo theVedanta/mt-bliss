@@ -90,7 +90,7 @@ const SlideShow = () => {
             <Slide
                 infinite={true}
                 easing="ease-in"
-                transitionDuration="800"
+                transitionDuration={800}
                 duration={3000}
                 arrows={false}
                 ref={mainRef}

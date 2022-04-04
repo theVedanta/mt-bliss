@@ -81,9 +81,9 @@ const Footer = () => {
                 </div>
 
                 <div className="write flex w-1/3 flex-col lap:w-1/2 lap:mx-10 tab:w-full tab:mt-10">
-                    <h1 className="text-3xl font-semibold text-gray mt-2 mb-5">
+                    <h3 className="text-3xl font-semibold text-gray mt-2 mb-5">
                         Write to us
-                    </h1>
+                    </h3>
                     <input
                         type="email"
                         className="footer-name text-lg bg-gray rounded-lg px-5 py-3 w-full mb-3 shadow-lg tab:text-sm"
@@ -108,7 +108,7 @@ const Footer = () => {
                 </div>
             </footer>
             <div className="cred flex w-full justify-between items-center px-32 py-2 bg-slate-900 lap:px-16 ph:px-6">
-                <h1 className="text-gray">
+                <h3 className="text-gray ph:text-xs">
                     Developed by{" "}
                     <a
                         href="https://github.com/theVedanta"
@@ -118,12 +118,12 @@ const Footer = () => {
                     >
                         theVedanta
                     </a>
-                </h1>
+                </h3>
                 <a
-                    href="tel:7428545077"
-                    className="text-gray font-semibold text-blue"
+                    href="mailto:vedanta1412@gmail.com"
+                    className="font-semibold text-blue ph:text-xs"
                 >
-                    +91 74285 45077
+                    vedanta1412@gmail.com
                 </a>
             </div>
         </>

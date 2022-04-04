@@ -41,7 +41,7 @@ const Reviews = () => {
 
     return (
         <div className="px-40">
-            <h1 className="text-5xl font-semibold text-center">Reviews</h1>
+            <h3 className="text-5xl font-semibold text-center">Reviews</h3>
             <OwlCarousel ref={revRef} options={options}>
                 {reviews.map((review) => {
                     return <Review review={review} key={review.id} />;

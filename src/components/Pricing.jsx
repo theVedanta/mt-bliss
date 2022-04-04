@@ -25,24 +25,24 @@ const Pricing = ({ setShowCont }) => {
             className="pricing my-24 px-32 flex flex-col justify-center items-center mb-32 lap:px-16 ph:px-6 ph:mt-64 ph:mb-0"
             id="pricing"
         >
-            <h1 className="text-5xl font-semibold text-center mb-16">
+            <h3 className="text-5xl font-semibold text-center mb-16">
                 Pricing
-            </h1>
+            </h3>
             <div className="prices flex w-1/2 blap:w-2/3 lap:w-full ph:flex-wrap">
                 <div
                     className="price-box w-1/2 rounded-lg flex flex-col items-center p-10 mx-3 ph:w-full ph:mb-10"
                     style={{ boxShadow: "0 0 20px rgba(0, 0, 10, 0.1)" }}
                 >
-                    <h1 className="text-3xl font-semibold">Weekdays</h1>
+                    <h3 className="text-3xl font-semibold">Weekdays</h3>
                     <i className="mt-3 text-sm text-blue mb-10 tab:mb-5">
                         All weekdays except Friday
                     </i>
-                    <h2 className="text-5xl font-light mb-20 tab:text-4xl tab:mb-14">
+                    <h4 className="text-5xl font-light mb-20 tab:text-4xl tab:mb-14">
                         ₹ {prices.weekday[persons]}K
                         <strong className="font-semibold text-2xl">
                             /Night
                         </strong>
-                    </h2>
+                    </h4>
                     <div className="price-persons flex flex-col w-full items-center px-3 mb-10">
                         {Object.keys(prices.weekday).map((prs) => {
                             return (
@@ -72,17 +72,17 @@ const Pricing = ({ setShowCont }) => {
                     className="price-box w-1/2 rounded-lg flex flex-col items-center p-10 mx-3 ph:w-full ph:mb-10"
                     style={{ boxShadow: "0 0 20px rgba(0, 0, 10, 0.1)" }}
                 >
-                    <h1 className="text-3xl font-semibold">Weekends</h1>
+                    <h3 className="text-3xl font-semibold">Weekends</h3>
                     <i className="mt-3 text-sm text-blue mb-10 tab:mb-5">
                         Friday, Saturday, Sunday
                     </i>
-                    <h2 className="text-5xl font-light mb-20 tab:text-4xl tab:mb-14">
+                    <h4 className="text-5xl font-light mb-20 tab:text-4xl tab:mb-14">
                         ₹ {prices.weekend[persons]}K
                         <strong className="font-semibold text-2xl">
                             {" "}
                             /Night
                         </strong>
-                    </h2>
+                    </h4>
                     <div className="price-persons flex flex-col w-full items-center px-3 mb-10">
                         {Object.keys(prices.weekend).map((prs) => {
                             return (
