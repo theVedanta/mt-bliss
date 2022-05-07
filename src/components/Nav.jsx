@@ -1,5 +1,6 @@
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     const linkClass =
@@ -26,32 +27,32 @@ const Nav = () => {
             >
                 <a
                     className={linkClass}
-                    href="#header"
+                    href="/#header"
                     onClick={() => (side ? setSide(!side) : "")}
                 >
                     Home
                 </a>
                 <a
                     className={linkClass}
-                    href="#pricing"
+                    href="/#pricing"
                     onClick={() => (side ? setSide(!side) : "")}
                 >
                     Pricing
                 </a>
                 <a
                     className={linkClass}
-                    href="#slideshow"
+                    href="/#slideshow"
                     onClick={() => (side ? setSide(!side) : "")}
                 >
                     Gallery
                 </a>
-                <a
+                <Link
                     className={linkClass}
-                    href="#features"
+                    to="/booking"
                     onClick={() => (side ? setSide(!side) : "")}
                 >
-                    Features
-                </a>
+                    Booking
+                </Link>
             </div>
 
             <div

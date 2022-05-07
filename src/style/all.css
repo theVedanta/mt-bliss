@@ -104,6 +104,15 @@ img {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Calendar */
+.booking .react-calendar {
+    width: 100%;
+}
+.react-calendar__tile.react-calendar__month-view__days__day {
+    height: 7vh !important;
+    font-size: 1vw;
+}
+
 /* LAP */
 @media (max-width: 1279px) {
     .cont-box {
