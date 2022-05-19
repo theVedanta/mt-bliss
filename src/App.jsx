@@ -2,23 +2,26 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Index from "./components/Index";
 import Error from "./components/Error";
 import Nav from "./components/Nav";
-import Booking from "./components/Booking";
-// import Payment from "./components/Payment";
-// import Success from "./components/Success";
-// import Cancel from "./components/Cancel";
+import { useState } from "react";
+import Form from "./components/Form";
 
 const App = () => {
+    const [showCont, setShowCont] = useState(false);
+
     return (
         <BrowserRouter>
-            <Nav />
+            <Nav showCont={showCont} setShowCont={setShowCont} />
             <Routes>
-                <Route exact path="/" element={<Index />} />
-                <Route exact path="/booking" element={<Booking />} />
-                {/* <Route exact path="/payment" element={<Payment />} />
-                <Route exact path="/success" element={<Success />} />
-                <Route exact path="/cancel" element={<Cancel />} /> */}
+                <Route
+                    exact
+                    path="/"
+                    element={
+                        <Index showCont={showCont} setShowCont={setShowCont} />
+                    }
+                />
                 <Route path="*" element={<Error />} />
             </Routes>
+            {showCont ? <Form setShowCont={setShowCont} /> : ""}
         </BrowserRouter>
     );
 };

@@ -27,6 +27,12 @@ body {
 img {
     object-fit: cover;
     user-select: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .slide-prev,
@@ -105,12 +111,12 @@ img {
 }
 
 /* Calendar */
-.booking .react-calendar {
-    width: 100%;
+.form .react-calendar {
+    width: 95%;
 }
 .react-calendar__tile.react-calendar__month-view__days__day {
-    height: 7vh !important;
-    font-size: 1vw;
+    height: 5vh !important;
+    font-size: 0.9vw;
 }
 
 /* LAP */
@@ -131,6 +137,9 @@ img {
         margin: 0 1%;
         margin-bottom: 2vh;
     }
+    .react-calendar__tile.react-calendar__month-view__days__day {
+        font-size: 2vw;
+    }
 }
 /* PHONG */
 @media (max-width: 767px) {
@@ -141,6 +150,15 @@ img {
     .feat-card {
         width: 100%;
         margin-bottom: 3vh;
+    }
+    .react-calendar__tile.react-calendar__month-view__days__day {
+        font-size: 2.9vw;
+        height: 3.6vh !important;
+        padding: 0 !important;
+        padding-top: 0.3vh !important;
+    }
+    .form .react-calendar {
+        width: 92%;
     }
 }
 /* HEIGHT */

@@ -9,6 +9,7 @@ module.exports = {
             tab: { max: "1023px" },
             bph: { max: "767px" },
             ph: { max: "639px" },
+            mph: { max: "400px" },
         },
         colors: ({ colors }) => ({
             inherit: colors.inherit,
