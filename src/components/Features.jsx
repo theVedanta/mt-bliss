@@ -3,7 +3,7 @@ const Features = () => {
         {
             img: "/assets/feats/sp.png",
             name: "Swimming Pool to cool",
-            desc: `Beat the heat and enjoy the cool breeze of the pool. Mt. Bliss offers a beautiful Swimming pool with plenty of space around for the adults to enjoy too.`,
+            desc: `Beat the heat and enjoy the cool breeze of the pool. Mount Bliss offers a beautiful Swimming pool with plenty of space around for the adults to enjoy too.`,
         },
         {
             img: "/assets/feats/mt.png",

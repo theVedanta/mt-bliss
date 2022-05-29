@@ -5,7 +5,7 @@ const Header = ({ setShowCont }) => {
     return (
         <section className="header w-screen h-screen flex flex-col" id="header">
             <div className="dead-section hidden">
-                <h1>Mt. Bliss</h1>
+                <h1>Mount Bliss</h1>
                 <h1>Lonavala</h1>
                 <h1>Swimming Pool</h1>
                 <h1>Bungalow</h1>

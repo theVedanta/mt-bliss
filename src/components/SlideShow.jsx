@@ -5,69 +5,69 @@ import { useRef } from "react";
 
 const slideImages = [
     {
-        url: "/assets/bung/1.webp",
+        url: "/assets/bung/1.jpeg",
         caption: "Slide 1",
     },
     {
-        url: "/assets/bung/2.webp",
+        url: "/assets/bung/2.jpeg",
         caption: "Slide 1",
     },
     {
-        url: "/assets/bung/3.webp",
+        url: "/assets/bung/3.jpeg",
         caption: "Slide 1",
     },
     {
-        url: "/assets/bung/4.webp",
+        url: "/assets/bung/4.jpeg",
         caption: "Slide 1",
     },
     {
         url: "/assets/bung/5.jpeg",
         caption: "Slide 1",
     },
-    {
-        url: "/assets/bung/6.webp",
-        caption: "Slide 1",
-    },
-    {
-        url: "/assets/bung/7.webp",
-        caption: "Slide 1",
-    },
-    {
-        url: "/assets/bung/8.webp",
-        caption: "Slide 1",
-    },
-    {
-        url: "/assets/bung/9.jpg",
-        caption: "Slide 1",
-    },
-    {
-        url: "/assets/bung/10.jpeg",
-        caption: "Slide 1",
-    },
-    {
-        url: "/assets/bung/11.webp",
-        caption: "Slide 1",
-    },
-    {
-        url: "/assets/bung/12.webp",
-        caption: "Slide 1",
-    },
-    {
-        url: "/assets/bung/13.webp",
-        caption: "Slide 1",
-    },
-    {
-        url: "/assets/bung/14.webp",
-        caption: "Slide 1",
-    },
-    {
-        url: "/assets/bung/15.webp",
-        caption: "Slide 1",
-    },
-    {
-        url: "/assets/bung/16.jpeg",
-        caption: "Slide 1",
-    },
+    // {
+    //     url: "/assets/bung/6.webp",
+    //     caption: "Slide 1",
+    // },
+    // {
+    //     url: "/assets/bung/7.webp",
+    //     caption: "Slide 1",
+    // },
+    // {
+    //     url: "/assets/bung/8.webp",
+    //     caption: "Slide 1",
+    // },
+    // {
+    //     url: "/assets/bung/9.jpg",
+    //     caption: "Slide 1",
+    // },
+    // {
+    //     url: "/assets/bung/10.jpeg",
+    //     caption: "Slide 1",
+    // },
+    // {
+    //     url: "/assets/bung/11.webp",
+    //     caption: "Slide 1",
+    // },
+    // {
+    //     url: "/assets/bung/12.webp",
+    //     caption: "Slide 1",
+    // },
+    // {
+    //     url: "/assets/bung/13.webp",
+    //     caption: "Slide 1",
+    // },
+    // {
+    //     url: "/assets/bung/14.webp",
+    //     caption: "Slide 1",
+    // },
+    // {
+    //     url: "/assets/bung/15.webp",
+    //     caption: "Slide 1",
+    // },
+    // {
+    //     url: "/assets/bung/16.jpeg",
+    //     caption: "Slide 1",
+    // },
 ];
 
 const SlideShow = () => {
