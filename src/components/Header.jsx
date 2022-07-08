@@ -59,18 +59,18 @@ const Header = ({ setShowCont }) => {
                         Contact Us
                     </h3>
                     <a
-                        href="tel:7428458777"
-                        className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm"
-                    >
-                        <FaPhoneAlt />
-                        <h4>74284 58777</h4>
-                    </a>
-                    <a
                         href="tel:9930727279"
                         className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm"
                     >
                         <FaPhoneAlt />
                         <h4>99307 27279</h4>
+                    </a>
+                    <a
+                        href="tel:7428458777"
+                        className="cont-unit flex justify-between w-full items-center py-1 lap:text-sm"
+                    >
+                        <FaPhoneAlt />
+                        <h4>74284 58777</h4>
                     </a>
                     <a
                         href="mailto:mtbliss15@gmail.com"

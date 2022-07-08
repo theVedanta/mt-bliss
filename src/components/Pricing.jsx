@@ -4,21 +4,21 @@ import Button from "./Button";
 
 const prices = {
     weekend: {
-        8: "16",
-        12: "18",
-        16: "21",
-        20: "25",
+        8: "14",
+        12: "16",
+        16: "23",
+        20: "27",
     },
     weekday: {
         8: "10",
-        12: "12",
-        16: "14",
-        20: "16",
+        12: "14",
+        16: "18",
+        20: "22",
     },
 };
 
 const Pricing = ({ setShowCont }) => {
-    const [persons, setPersons] = useState(8);
+    const [persons, setPersons] = useState(12);
 
     return (
         <section
@@ -50,7 +50,7 @@ const Pricing = ({ setShowCont }) => {
                                     key={prs}
                                     className={`font-light flex items-center mb-2 transition-all ${
                                         prs.toString() === persons.toString()
-                                            ? "py-1 px-3 rounded-full bg-blue text-white"
+                                            ? "py-1 px-3 rounded bg-blue text-white"
                                             : ""
                                     }`}
                                     onClick={() => setPersons(prs)}
@@ -74,9 +74,9 @@ const Pricing = ({ setShowCont }) => {
                 >
                     <h3 className="text-3xl font-semibold">Weekends</h3>
                     <i className="mt-3 text-sm text-blue mb-10 tab:mb-5">
-                        Friday, Saturday, Sunday
+                        Subject to change
                     </i>
-                    <h4 className="text-5xl font-light mb-20 tab:text-4xl tab:mb-14">
+                    {/* <h4 className="text-5xl font-light mb-20 tab:text-4xl tab:mb-14">
                         ₹ {prices.weekend[persons]}K
                         <strong className="font-semibold text-2xl">
                             {" "}
@@ -90,7 +90,7 @@ const Pricing = ({ setShowCont }) => {
                                     key={prs}
                                     className={`font-light flex items-center mb-2 transition-all ${
                                         prs.toString() === persons.toString()
-                                            ? "py-1 px-3 rounded-full bg-blue text-white"
+                                            ? "py-1 px-3 rounded bg-blue text-white"
                                             : ""
                                     }`}
                                     onClick={() => setPersons(prs)}
@@ -100,12 +100,12 @@ const Pricing = ({ setShowCont }) => {
                                 </button>
                             );
                         })}
-                    </div>
-
+                    </div> */}
+                    {/* 
                     <Button
                         onClick={() => setShowCont(true)}
                         text="Book your stay"
-                    />
+                    /> */}
                 </div>
             </div>
         </section>

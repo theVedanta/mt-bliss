@@ -9,6 +9,10 @@ const slideImages = [
         caption: "Slide 1",
     },
     {
+        url: "/assets/bung/8.jpeg",
+        caption: "Slide 1",
+    },
+    {
         url: "/assets/bung/2.jpeg",
         caption: "Slide 1",
     },
@@ -22,6 +26,26 @@ const slideImages = [
     },
     {
         url: "/assets/bung/5.jpeg",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/6.jpeg",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/7.jpeg",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/9.jpeg",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/10.jpeg",
+        caption: "Slide 1",
+    },
+    {
+        url: "/assets/bung/11.jpeg",
         caption: "Slide 1",
     },
     // {

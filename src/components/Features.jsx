@@ -23,7 +23,7 @@ const Features = () => {
         {
             img: "/assets/feats/tv.png",
             name: "Entertainment",
-            desc: `Feeling lazy and just want to sit around in the huge villa? We have you covered with entertainment. The villa has a TV along with WIFI to watch your favorite movies/shows.`,
+            desc: `Feeling lazy and want to just enjoy the serenity of the villa? We have you covered with entertainment. The villa has a TV along with WIFI to watch your favorite movies/shows.`,
         },
         {
             img: "/assets/feats/work.png",

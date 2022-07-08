@@ -50,6 +50,7 @@ const Form = ({ setShowCont }) => {
                         setLimit(true);
                     },
                     function (error) {
+                        console.log(error);
                         notyf.error(
                             "Some error occurred while sending the message"
                         );
