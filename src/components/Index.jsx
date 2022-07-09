@@ -29,8 +29,8 @@ const Index = ({ setShowCont }) => {
                 autoPlay={true}
             ></audio>
             <Header setShowCont={setShowCont} />
-            <Pricing setShowCont={setShowCont} />
             <SlideShow />
+            <Pricing setShowCont={setShowCont} />
             <Features />
             {/* <Reviews /> */}
             <Footer />

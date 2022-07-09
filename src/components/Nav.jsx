@@ -5,7 +5,9 @@ const Nav = ({ setShowCont }) => {
     const linkClass =
         "px-10 py-3 lap:text-sm lap:px-7 tab:px-5 tab:py-2 ph:py-6 ph:text-lg";
     const linkClassBook =
-        "cursor-pointer px-10 py-3 bg-blue rounded-lg text-white font-medium transition-all lap:text-sm lap:px-7 tab:px-5 tab:py-2 ph:py-3 ph:mt-3 ph:px-7 ph:text-lg hover:bg-sky-900";
+        "cursor-pointer px-10 py-3 bg-blue rounded-lg text-white font-medium border-2 border-blue transition-all lap:text-sm lap:px-7 tab:px-5 tab:py-2 ph:py-3 ph:mt-3 ph:px-7 ph:text-lg hover:bg-sky-900 hover:border-sky-900";
+    const linkClassVid =
+        "cursor-pointer px-10 py-3 ml-3 bg-transparent border-2 border-blue rounded-lg text-blue font-medium transition-all lap:text-sm lap:px-7 tab:px-5 tab:py-2 ph:py-3 ph:mt-3 ph:px-7 ph:text-lg hover:shadow-xl";
     const [side, setSide] = useState(false);
 
     return (
@@ -52,6 +54,9 @@ const Nav = ({ setShowCont }) => {
                     onClick={() => setShowCont(true)}
                 >
                     Book Stay
+                </div>
+                <div className={linkClassVid} onClick={() => setShowCont(true)}>
+                    Discover Villa
                 </div>
             </div>
 
