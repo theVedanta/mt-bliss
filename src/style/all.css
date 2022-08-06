@@ -94,20 +94,22 @@ img {
     background-color: #296fd9;
 }
 .header-content {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../../public/assets/bung/3.jpeg"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.05)),
         url("../../public/assets/header.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .cont-box {
-    width: 30%;
+    width: 24%;
 }
 
 .feat-card {
     width: 32%;
     margin-bottom: 2%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
 
 /* Calendar */

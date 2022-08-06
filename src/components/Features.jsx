@@ -44,7 +44,7 @@ const Features = () => {
                 {feats.map((feat) => {
                     return (
                         <div
-                            className="feat-card rounded-2xl px-14 py-10 transition-all h-80 bg-slate-200 blap:px-10 blap:py-8 tab:px-8 tab:h-72"
+                            className="feat-card rounded-xl px-14 py-10 transition-all h-80 bg-emerald-300 blap:px-10 blap:py-8 tab:px-8 tab:h-72"
                             key={feats.indexOf(feat)}
                         >
                             <img
